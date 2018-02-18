@@ -1,0 +1,29 @@
+<html>
+	<?php 
+	include "connect.php";
+    session_start();
+	if(isset($_POST['sub'])){
+		$name=$_POST['Name'];      
+		$pass=$_POST['password']; 
+	}
+?>
+    <head >
+            <title>Login</title>
+    </head>
+    <body>
+        <main>
+                <h2><b>login</b></h2>
+                <form action="" method="post">
+                    Name<br>
+                    <input type="text" name="Name">
+                    <br>
+                    Password
+                    <br>
+                    <input type="password" name="password">
+                    <br><br>
+                 <input type="submit" name="sub" value="Click to Submit" class="bold">
+                </form>
+        </main>
+    </body>
+</html>  
+  

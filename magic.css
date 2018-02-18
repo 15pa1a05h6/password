@@ -1,0 +1,57 @@
+
+.a{
+text-align: center;
+ color: white;
+ background-color:#CD5C5C;
+ padding:5px 0px 15px 0px;
+}
+p{
+  text-decoration: none;
+}
+.d{
+	text-align:center;
+		color: mediumseagreen;
+}
+.b{
+
+    padding-top: 10px;
+    padding-bottom: 0px;
+	background-image: url("stardust.png");
+	background-size: cover;
+	
+}
+.c{
+
+	padding:10px 10px 10px 15px;
+	background-image:url("crossword.png");
+	margin:10px 100px 0 100px;
+	font-size: 21px;
+	
+}
+h3
+{
+	color:mediumseagreen;
+	border-bottom:1px solid lightgrey;
+	
+}
+
+
+.a a{
+	color: white;
+}
+.co{
+	
+	text-align: center;
+	color:grey;
+	text-transform: uppercase;
+	font-style: italic;
+	font-size:15px;
+	padding:10px 0px;
+}
+.c a{
+	color:blue;
+}
+.one{
+  text-decoration:none;
+	display: inline;
+}

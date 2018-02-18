@@ -1,0 +1,43 @@
+     a:link {
+             text-decoration: none;
+             color:blue;
+
+             
+          }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    align:center;
+}
+body{
+    background-image: url("project4.jpg");
+    background-size: 100%  150%;
+    background-repeat: no-repeat;
+}
+form{
+    padding-left:35%;
+    padding-right:20%;
+}
+.button{
+    margin-left:30%;
+     padding: 15px 32px;
+    text-align: center;
+}
+b{
+    color:black;
+    align:center;
+    font-size: 120%;
+}
+h1{
+    color:blue;
+}
+h4{
+    text-align: center;
+    font-size: 100%;
+    color:red;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<!DOCTYPE bookstore [
+<!ELEMENT bookstore (book+)>
+
+<!ELEMENT book (title,author,ISBN,publisher,edition,price)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT edition (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+]>
+<bookstore>
+            <book>
+                        <title>web programming</title>
+                        <author>chrisbates</author>
+                        <ISBN>123-456-789</ISBN>
+                        <publisher>wiley</publisher>
+                        <edition>3</edition>
+                        <price>350</price>
+            </book>
+            <book>
+                        <title>internet worldwideweb</title>
+                        <author>ditel&amp;ditel</author>
+                        <ISBN>123-456-781</ISBN>
+                        <publisher>person</publisher>
+                        <edition>3</edition>
+                        <price>450</price>
+            </book>
+            <book>
+                        <title>computer networks</title>
+                        <author>hashley</author>
+                        <ISBN>123-456-987</ISBN>
+                        <publisher>lilyy</publisher>
+                        <edition>4</edition>
+                        <price>380</price>
+            </book>
+            <book>
+                        <title>internet of things</title>
+                        <author>ditel</author>
+                        <ISBN>123-654-781</ISBN>
+                        <publisher>sonu</publisher>
+                        <edition>5</edition>
+                        <price>480</price>
+            </book>
+                        <book>
+                        <title>json</title>
+                        <author>bates</author>
+                        <ISBN>321-456-789</ISBN>
+                        <publisher>pop</publisher>
+                        <edition>3</edition>
+                        <price>400</price>
+            </book>
+
+</bookstore>
+
+
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="book">
+  <xs:complexType>
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="author" type="xs:string"/>
+      <xs:element name="ISBN" type="xs:string"/>
+      <xs:element name="publisher" type="xs:string"/>
+	  <xs:element name="edition" type="xs:string"/>
+	  <xs:element name="price" type="xs:string"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:element>
+</xs:schema>

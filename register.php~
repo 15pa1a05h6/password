@@ -1,0 +1,45 @@
+<html>
+	<?php 
+	include "connect.php"
+?>
+    <head >
+            <title>Suggest</title>
+            <link rel="stylesheet" href="suggest.css">
+    </head>
+    <body>
+        <header>
+                <div id="img1">
+                    <img src="logo.png">
+                </div> 
+                <p id="img2">
+                    <a href="home.html">Home</a>
+                    <a href="recipe.html">Recipes</a>
+                    <a href="suggest.html">suggest</a>
+                </p>
+        </header>
+        <main>
+                <h2><b>Suggest</b></h2>
+                <form action="/action_page.php" method="get">
+                    Name<br>
+                    <input type="text" name="Name" class="box">
+                    <br>
+                    Email<br>
+                    <input type="text" name="Email" class="box">
+                    <br>
+                    Password
+                    <br>
+                    <input type="password" name="password" class="box">
+                    <br><br>
+                    Retype Password
+                    <br>
+                    <input type="password" name="password" class="box">
+                    <br><br>
+                 <input type="submit" value="Click to Submit" class="bold">
+                </form>
+        </main>
+        <div class="c1">
+                            <p>&copy; 2014-RECIPE WORLD</p>
+        </div>
+    </body>
+</html>  
+  
